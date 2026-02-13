@@ -1,3 +1,9 @@
+
+
+if you find this usefull and would like to donate to help 
+https://gofund.me/ff637712a 
+
+
 📺 IPTV Server with EPG & Stream Control
 A comprehensive IPTV server solution with automatic EPG (Electronic Program Guide) management, channel scheduling, and stream control capabilities for audio transcription services.
 
@@ -314,4 +320,5 @@ EPG handling inspired by XMLTV format
 
 Timezone handling using JavaScript Intl API
 
-Stream control designed for transcription service integration
+Stream control designed for transcription service integratio
+
