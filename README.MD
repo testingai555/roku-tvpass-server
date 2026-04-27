@@ -20,7 +20,7 @@ Smart EPG Filtering: Only shows current and future programs, filters out past co
 
 Automatic File Mapping: Smart channel name matching for EPG files
 
-🚀 Installation Prerequisites Node.js (v14 or higher)
+🚀 Installation Prerequisites Node.js (v24 or higher)
 
 Python 3.x
 
