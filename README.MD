@@ -45,9 +45,6 @@ UI Server: http://localhost:3000
 
 API Server: http://localhost:8081
 
-📁 Project Structure text iptv-server/ ├── data/ │ ├── as.json # Channel data │ ├── channels.json # Main channel configuration │ ├── channels.backups/ # Automatic backups │ └── epg/ # EPG JSON files ├── fetch_epg5.py # Channel scraper ├── epg3.py # EPG updater └── server.js # Main server file 🔧 Configuration Edit the configuration section at the top of server.js:
-
-javascript const PORT_UI = 3000; // UI server port const PORT_API = 8081; // API server port const AUTO_REFRESH_MIN = 120; // Channel refresh interval (minutes) const EPG_UPDATE_DAYS = 3; // EPG update frequency (days) 📡 API Endpoints UI Server (Port 3000) Endpoint Method Description / GET Web UI dashboard /events GET SSE log stream /channel-list.json GET JSON channel list /playlist.m3u GET M3U playlist /api/scraper/refresh POST Refresh all channels /api/scraper/refresh/:id POST Refresh specific channel /api/epg/update POST Trigger EPG update /api/epg/status GET EPG update status /api/start-stream/:channelId POST Start stream for transcription API Server (Port 8081) Endpoint Method Description /channel-list.json GET JSON channel list /channels/rollback/list GET List available rollbacks /channels/rollback/:file POST Restore from backup /channels/:channel.json GET Get EPG data for channel 🎯 EPG Features Smart Channel Matching The server automatically matches channel names to EPG files using multiple strategies:
 
 Exact filename matching
 
