@@ -28,7 +28,8 @@ npm or yarn
 
 Setup Clone the repository:
 
-bash git clone https://github.com/yourusername/iptv-server.git cd roku-tvpass-server Install dependencies:
+bash git clone https://github.com/testingai555/roku-tvpass-server.git
+cd roku-tvpass-server Install dependencies:
 
 bash npm install express cors Ensure Python scripts are present:
 
