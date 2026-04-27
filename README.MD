@@ -234,5 +234,7 @@ Stream control designed for transcription service integration
 DOCKER INSTALL
 
 docker build -t NAME .
+
+
 docker run -d --name roku2 --restart=unless-stopped -p 3000:3000 -p 8081:8081 roku2:latest  (example) 
  
