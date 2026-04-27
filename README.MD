@@ -168,7 +168,10 @@ json [ { "title": "Program Name", "start_time": "timestamp", "end_time": "timest
 
 javascript const epgFileMappings = { "Custom Channel Name": "filename.json", // ... }; Configuring Transcription Service To connect to a different transcription server, modify the IP address in the curl command:
 
-javascript // In server.js, find and modify: const curlCommand = curl -X POST http://localhost:5000/start-stream ...; 🐛 Troubleshooting Common Issues EPG files not loading
+javascript // In server.js, find and modify: const curlCommand = curl -X POST http://localhost:5000/start-stream ...; 
+
+
+🐛 Troubleshooting Common Issues EPG files not loading
 
 Check file permissions
 
